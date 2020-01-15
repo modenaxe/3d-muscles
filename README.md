@@ -1,5 +1,21 @@
+# [WIP]
 # Overview
+This repository contains the data and code to 
+It is possible to inspect and re-use both dataset, scripts and 
 
+If you make use of this materials, please cite:
+```bibtex
+@article{Modenese2019three,
+  title={Automated Generation of Three-Dimensional Complex Muscle Geometries for Use in Personalised Musculoskeletal Models},
+  author={Modenese, Luca and Kohout, Josef},
+  journal={Annals of biomedical engineering},
+  volume={under review},
+  number={under review},
+  pages={xx--xx},
+  year={2020},
+  publisher={Springer}
+}
+```
 
 ## Contents
 This repository includes:
@@ -24,13 +40,17 @@ and can be visualised and used to build an OpenSim model using [NMSBuilder](http
 Please refer to the NMSBuilder [website](http://www.nmsbuilder.org) for documentation on how to use that software.
 
 # How to use the MATLAB scripts available in this folder
-These scripts allow the reviewers of the manuscript Modenese L and Kohout J (2019). “Automated Generation of Three-Dimensional Complex Muscle Geometries for Use in Personalised Musculoskeletal Models.” submitted to Annals of Biomedical Engineering to visualise the musculoskeletal models generated in the reported analyses and recreate the two main figures included in the manuscript (Figure 4 and Figure 5), presenting the results for the moment arms.
+The scripts are meant to be executed following the alpha-numerical order, i.e. a, b1, b2, etc.  
+
+The folders starting with “_” are support folders containing functions and data used in the main scripts. 
+
+These scripts allow recreate the two main figures included in the manuscript (Figure 4 and Figure 5), presenting the results for the moment arms.
 
 ## REQUIREMENTS 
 * the OpenSim (v3.3) API for MATLAB have to be installed before using these scripts. All models and scripts are designed to be used in OpenSim 3.3, although it is possible to import the highly discretized models also in OpenSim 4.0 for better visualization, as OpenSim v4 allows using different colours for the fibres of each muscle.
 
 ## USE
-The scripts are meant to be executed following the alpha-numerical order, i.e. a, b1, b2, etc.  The folders starting with “_” are support folders containing functions and data used in the main scripts. 
+
 # Limitations
 
 # Future work
