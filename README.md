@@ -2,6 +2,7 @@
 # Overview
 This repository contains the data and code to 
 It is possible to inspect and re-use both dataset, scripts and 
+![muscle_deformations](https://github.com/modenaxe/3d-muscles/blob/master/images/muscle_deformations.png)
 
 If you make use of this materials, please cite:
 ```bibtex
