@@ -1,4 +1,11 @@
 # [WIP]
+
+# TO DO
+- [ ] finalize read me with overview, limitation and few better images
+- [ ] maybe link my work in progress repository
+- [ ] upgrade to openSim 4.0?
+
+
 # Overview
 This repository contains the data and code to 
 It is possible to inspect and re-use both dataset, scripts and 
@@ -43,7 +50,7 @@ Please refer to the NMSBuilder [website](http://www.nmsbuilder.org) for document
 # How to use the MATLAB scripts available in this folder
 The scripts are meant to be executed following the alpha-numerical order, i.e. a, b1, b2, etc.  
 
-The folders starting with “_” are support folders containing functions and data used in the main scripts. 
+The folders starting with “_�? are support folders containing functions and data used in the main scripts. 
 
 These scripts allow recreate the two main figures included in the manuscript (Figure 4 and Figure 5), presenting the results for the moment arms.
 
