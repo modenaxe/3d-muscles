@@ -169,6 +169,9 @@ plot(ax, Nemeth1985.data(:,1), Nemeth1985.data(:,2)/10, '-k');
 x = [Nemeth1985.data(1,1), 5:5:90];
 y = [Nemeth1985.data(1,2), 75, 74, 72, 70, 69, 66, 64, 62, 59, 56, 54, 51, 48, 44, 41, 38, 34, 31]/10;
 plot(ax, x, y, 'sk', 'MarkerFaceColor',[1 1 1],'MarkerSize',6)
+% add Dostal data (flexion)
+subplot(3,2,1)
+plot(0.0, 4.6, 'ok', 'Linewidth', 1.0,'MarkerFaceColor',[0 0 0],'MarkerSize',3)
 % add Dostal data (adduction)
 subplot(3,2,3)
 plot(0.0, 0.7, 'ok', 'Linewidth', 1.0,'MarkerFaceColor',[0 0 0],'MarkerSize',3)
