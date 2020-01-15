@@ -91,8 +91,16 @@ for n = 1:numel(task_set)
         accum = [accum, range_MA*100]; % cm
 
         %     range_MA = [min_MA max_MA]*100;
-        disp([cur_mus_name,' range of moment arms: ', num2str(range_MA*100), ' cm'])
+        % disp([cur_mus_name,' range of moment arms: ', num2str(range_MA*100), ' cm'])
 %         close all
+
+        % FOR REVISION: mean and std of moment arms
+        med = mean(cur_mus_res.mom_arm_mat, 2);
+        dev = std(cur_mus_res.mom_arm_mat, 0, 2);
+        plot(med, 'k', 'LineWidth', 3)
+        %     range_MA = [min_MA max_MA]*100;
+        disp([cur_mus_name,' range of moment arms: ', num2str(range_MA*100, '%2.1f\t'), ' cm', '    mean val:',num2str(mean(med)*100, '%2.1f\t'),'  std:',num2str(std(med)*100, '%2.1f\t')])
+        close all
     end
     ma_range_matrix.data(n, :) = accum;
     accum = [];
