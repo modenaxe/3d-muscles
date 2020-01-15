@@ -40,7 +40,7 @@ muscles_list = {'r_psoas', 'r_iliacus', 'r_gluteus_maximus', 'r_gluteus_medius'}
 ma_range_matrix.colheaders = {};
 accum = [];
 disp('------------------------------------------------------------------')
-disp('MOMENT ARMS FOR MSK MODEL WITH STANDARD GEOMETRICAL MUSCLE MODELS.');
+disp('MOMENT ARMS FOR MSK MODEL WITH STANDARD STRAIGHT-LINE MUSCLE MODELS.');
 disp('------------------------------------------------------------------')
 for n = 1:numel(task_set)
     % get current task
@@ -66,26 +66,34 @@ for n = 1:numel(task_set)
     os_glutmax(:,2) = getValueColumnForHeader(osim_MA, 'glut_max2_r');
     os_glutmax(:,3) = getValueColumnForHeader(osim_MA, 'glut_max3_r');
     range_glumax = [ min(min(os_glutmax))  max(max(os_glutmax))];
-    
+    mean_glumax(n) = mean(mean(os_glutmax)*100);
+    std_glumax(n) = std(mean(os_glutmax)*100);
+	
     % glut med
     os_glutmed(:,1) = getValueColumnForHeader(osim_MA, 'glut_med1_r');
     os_glutmed(:,2) = getValueColumnForHeader(osim_MA, 'glut_med2_r');
     os_glutmed(:,3) = getValueColumnForHeader(osim_MA, 'glut_med3_r');
     range_glumed = [ min(min(os_glutmed))  max(max(os_glutmed))];
-    
+    mean_glumed(n) = mean(mean(os_glutmed)*100);
+    std_glumed(n) = std(mean(os_glutmed)*100);
+	
     %iliacus
     os_iliacus = getValueColumnForHeader(osim_MA, 'iliacus_r');
     range_iliacus = [ min(min(os_iliacus))  max(max(os_iliacus))];
+	mean_iliacus(n) = mean(os_iliacus)*100;
+    std_iliacus(n) = std(os_iliacus)*100;
     
     % psoas
     os_psoas = getValueColumnForHeader(osim_MA, 'psoas_r');
     range_psoas = [ min(min(os_psoas))  max(max(os_psoas))];
-    
+    mean_psoas(n) = mean(os_psoas)*100;
+    std_psoas(n) = std(os_psoas)*100;
+	
     % display
-    disp(['psoas range of moment arms   : ', num2str(range_psoas*100), ' cm'])
-    disp(['iliacus range of moment arms : ', num2str(range_iliacus*100), ' cm'])
-    disp(['glut_max range of moment arms: ', num2str(range_glumax*100), ' cm'])
-    disp(['glut_med range of moment arms: ', num2str(range_glumed*100), ' cm'])
+    disp(['psoas range of moment arms   : ', num2str(range_psoas*100, '%2.1f\t'), ' cm'])
+    disp(['iliacus range of moment arms : ', num2str(range_iliacus*100, '%2.1f\t'), ' cm'])
+    disp(['glut_max range of moment arms: ', num2str(range_glumax*100, '%2.1f\t'), ' cm'])
+    disp(['glut_med range of moment arms: ', num2str(range_glumed*100, '%2.1f\t'), ' cm'])
     clear os_*
     disp('-----------------------------------------------')
 end
