@@ -182,7 +182,7 @@ plot(0.0, 0.5, 'ok', 'Linewidth', 1.0,'MarkerFaceColor',[0 0 0],'MarkerSize',3)
 
 % ARNOLD's DATA
 subplot(3,2,1); 
-plot(Arnold2000.data(:,1), Arnold2000.data(:,2:4), 'k--')
+plot(Arnold2000.data(:,1), Arnold2000.data(:,2), 'k--')
 %------------------------------------
 
 %setting appropriately the figure for saving the file
