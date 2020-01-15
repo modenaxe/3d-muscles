@@ -11,8 +11,7 @@ This repository includes:
 
 ## Requirements
 In order to take full advantage of the content of this repository you will need to:
-1. [OpenSim 3.3](https://simtk.org/projects/opensim). To download it go to the `Download` page and click on `Previous releases`. 
-![how_to_get_OS3.3](https://github.com/modenaxe/3d-muscles/blob/master/images/get_osim3.3.PNG)
+1. [OpenSim 3.3](https://simtk.org/projects/opensim). To download it go to the `Download` page and click on `Previous releases`, as shown in [this screenshot](https://github.com/modenaxe/3d-muscles/blob/master/images/get_osim3.3.PNG).
 2. set up the OpenSim 3.3 API. Please refer to the OpenSim [documentation](https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab).
 3. have MATLAB installed in your machine. The analysis of the paper were done using version R2017b.
 4. (optional) [NMSBuilder](http://www.nmsbuilder.org)
