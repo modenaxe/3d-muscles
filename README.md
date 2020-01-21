@@ -14,7 +14,7 @@ This repository contains the data, models and the Matlab scripts to inspect and 
   publisher={Springer}
 }
 ```
-that we encourage you to cite the publication if you make use of these materials for your research or presentations.
+Please cite the manuscript if you make use of these materials for your research or presentations.
 
 ## Brief summary of the publication
 In our manuscript: 
