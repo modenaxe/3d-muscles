@@ -17,10 +17,11 @@
 %
 %
 % modified 29/6/2016
-% made changes to ensure that only one variable will be extracted!
-% it also ensure extraction of 3D data by taking the 3rd dimension!
+% made changes to ensure that only one variable will be extracted.
+% it also ensure extraction of 3D data by taking the 3rd dimension.
 % includes modifications implemented in getValueColumnForHeader3D.m
-
+%__________________________________________________________________________
+%
 
 function var_value = getValueColumnForHeader(struct, var_name)%, varargin)
 

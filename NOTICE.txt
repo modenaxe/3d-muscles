@@ -1,4 +1,4 @@
-% Muscle Discretization Matlab package: NOTICE
+% Muscle Discretization MATLAB package: NOTICE
 % -------------------------------------------
 %
 % The Muscle Discretization Matlab package for OpenSim uses the open source 
@@ -7,10 +7,10 @@
 % for more information about how to acknowledge us.
 %
 % -------------------------------------------------------------------------- %
-%                Muscle Discretization Matlab package                        %
+%                Muscle Discretization MATLAB package                        %
 % -------------------------------------------------------------------------- %
 %                                                                            %
-% Copyright (c) 2019 Modenese L., Kohout J.   				     %
+% Copyright (c) 2020 Modenese L., Kohout J.   				     %
 %                                                                            %
 % Licensed under the Apache License, Version 2.0 (the "License").            % 
 % You may not use this toolbox except in compliance with the License. You may%
@@ -29,6 +29,6 @@ How to Acknowledge Us
 If you use the functions included in this package, please acknowledge us 
 by citing the following paper:
 
-Modenese L and Kohout J (2019). Automated Generation of Three-Dimensional 
+Modenese L and Kohout J (2020). Automated Generation of Three-Dimensional 
 Complex Muscle Geometries for Use in Personalised Musculoskeletal Models. 
-Annals of Biomedical Engineering (submitted)
+Annals of Biomedical Engineering (under review).

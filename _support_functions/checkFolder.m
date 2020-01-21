@@ -7,6 +7,7 @@
 %
 % Function to check if the specified folder exists.
 % If it does not, the folder is created.
+%__________________________________________________________________________
 
 function checkFolder(folder)
 

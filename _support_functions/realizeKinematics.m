@@ -7,8 +7,8 @@
 %
 function state = realizeKinematics(osimModel, state, kinStorage, n_frame)
 % TO DO
-% this function is slow. I should find a way of passing in only a row of
-% coordinates! That would eliminate the need of a n_frame as well.
+% this function is slow. I should pass in only a row of
+% coordinates. That would eliminate the need of a n_frame as well.
 
 % OpenSim suggested settings
 import org.opensim.modeling.*
