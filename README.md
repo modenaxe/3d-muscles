@@ -38,16 +38,19 @@ To download it go to the `Download` page and click on `Previous releases`, as sh
 # Contents
 This repository includes:
 1. LHDL Anatomical dataset (see [reference publication](https://www.jstage.jst.go.jp/article/physiolsci/advpub/0/advpub_0_0810200082/_article/-char/ja/)) including:
+
 		a. bone geometries (pelvis, right femur)
 		b. muscle geometries (_iliacus_, _psoas_, _gluteus maximus_, _gluteus medius_)
 		c. muscle attachments (as point clouds)
 2. OpenSim model with `straight-lines muscles` built from the LHDL dataset using NMSBuilder
 3. Motion data in OpenSim format (`.mot` files) to simulate the following hip motions:
+
 		a. hip flexion/extension between -10 and 60 degrees
 		b. hip abduction/adduction between -40 and 40 degrees 
 		c. hip internal/external rotation between -30 and 30 degrees.
 4. OpenSim models with `highly discretized muscles`. There is a model for each of the investigated hip motions.
 5. MATLAB scripts to recreate:
+
 		a. Figure 4 and Figure 5 presenting the moment arms of the highly discretized muscles and their validation.
 		b. the results that were included in Table 1 and Table 2.
 Please note that the directories starting with `_` contain support functions and data used by the main scripts. 
