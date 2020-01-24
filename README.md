@@ -89,6 +89,5 @@ A version of LHPBuilder compatible with the use done in this paper can be downlo
 # Future work
 * A prototype of an `OpenSim plugin` implementing the methods described in this manuscript has already been
 implemented and a preview is visible on Youtube [at this link](https://www.youtube.com/watch?v=BW_jjCcbf5o). The source code will be released with one of our next publications.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BW_jjCcbf5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * Upgrade scripts to openSim 4.0.
 * link to *work in progress* repository with LHPBuilder files.
