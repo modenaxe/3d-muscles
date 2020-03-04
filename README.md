@@ -7,8 +7,8 @@ This repository contains the data, models and the Matlab scripts to inspect and 
   title={Automated Generation of Three-Dimensional Complex Muscle Geometries for Use in Personalised Musculoskeletal Models},
   author={Modenese, Luca and Kohout, Josef},
   journal={Annals of biomedical engineering},
-  volume={under review},
-  number={under review},
+  volume={accepted},
+  number={accepted},
   pages={xx--xx},
   year={2020},
   publisher={Springer}
@@ -18,29 +18,29 @@ Please cite the manuscript if you make use of these materials for your research 
 
 ## Brief summary of the publication
 In our manuscript: 
-* We used a publicly available anatomical model to create a subject-specific model of the hip joint using bone and muscle geometries obtained from CT and MRI scans
-collected on the LHDL cadaveric specimen. 
-* We used this model to propose a new method for representing the geometry of the skeletal muscles surrounding the hip joint and how it changes
+* We used a publicly available anatomical dataset to create a subject-specific musculoskeletal model of the hip joint using bone and muscle geometries from CT and MRI scans.
+The medical images were collected on a cadaveric specimen. 
+* We used this model to propose a new method for representing the geometry of the skeletal muscles surrounding the hip joint and how they change their shape
 when the joint moves.
 * We compared the muscle moment arms computed with our new approach against previous studies published in the biomechanical literature, finding remarkable agreement for 
-ranges of motion consistent with normal gait. If you need some background reading about muscle moment arms, you can refer to this [classic article by An K.N. et al.](http://e.guigon.free.fr/rsc/article/AnEtAl84a.pdf).
+ranges of motion consistent with normal gait. If you need some background reading about computing muscle moment arms, you can refer to this [classic article by An K.N. et al.](http://e.guigon.free.fr/rsc/article/AnEtAl84a.pdf).
 
 ![muscle_deformations](https://github.com/modenaxe/3d-muscles/blob/master/images/muscle_deformations.png)
 
 # Requirements
 In order to take full advantage of the content of this repository you will need to:
-1. [OpenSim 3.3](https://simtk.org/projects/opensim). Required to visualize the models. 
-To download it go to the `Download` page and click on `Previous releases`, as shown in [this screenshot](https://github.com/modenaxe/3d-muscles/blob/master/images/get_osim3.3.PNG).
+1. download [OpenSim 3.3](https://simtk.org/projects/opensim). Go to the `Download` page of the provided link and click on `Previous releases`, as shown in [this screenshot](https://github.com/modenaxe/3d-muscles/blob/master/images/get_osim3.3.PNG).
+ You will use OpenSim to visualize the models. 
 2. have MATLAB installed in your machine. The analyses of the paper were performed using version R2017b.
 3. set up the OpenSim 3.3 API. Required to run the provided scripts. Please refer to the OpenSim [documentation](https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab).
 4. (optional) [NMSBuilder](http://www.nmsbuilder.org)
 
 # Contents
 This repository includes:
-1. LHDL Anatomical dataset (see [reference publication](https://www.jstage.jst.go.jp/article/physiolsci/advpub/0/advpub_0_0810200082/_article/-char/ja/)) including:
+1. LHDL Anatomical dataset (see [reference publication](https://www.jstage.jst.go.jp/article/physiolsci/58/7/58_7_441/_article)) including:
 
 		a. bone geometries (pelvis, right femur)
-		b. muscle geometries (_iliacus_, _psoas_, _gluteus maximus_, _gluteus medius_)
+		b. muscle geometries for _iliacus_, _psoas_, _gluteus maximus_ and _gluteus medius_
 		c. muscle attachments (as point clouds)
 2. OpenSim model with `straight-lines muscles` built from the LHDL dataset using NMSBuilder
 3. Motion data in OpenSim format (`.mot` files) to simulate the following hip motions:
@@ -53,7 +53,7 @@ This repository includes:
 
 		a. Figure 4 and Figure 5 presenting the moment arms of the highly discretized muscles and their validation.
 		b. the results that were included in Table 1 and Table 2.
-Please note that the directories starting with `_` contain support functions and data used by the main scripts. 
+Please note that the folders starting with `_` contain support functions and data used by the main scripts. 
 
 ## Visualizing the anatomical dataset 
 The LHDL anatomical dataset employed in this study is available in the folder [_LHDL_hip_r_dataset](https://github.com/modenaxe/3d-muscles/tree/master/_LHDL_hip_r_dataset) 
@@ -75,7 +75,7 @@ So the order is:
 3. b2_plot_momArms_Fig5_as_Blemker2005.m
 4. etc.
 
-# Limitations and further notes about reproducibility
+# Limitations and notes about reproducibility
 * The highly discretized muscle models are meant to be used for simulating the provided hip joint tasks and nothing else.
 * Please note that the results for the highly discretized muscles presented in the manuscript were generated from kinematic simulations 
 performed in LHPBuilder, a multimodal viewer for biomechanical application that is not developed or supported anymore. 
