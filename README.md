@@ -12,6 +12,7 @@ This repository contains the data, models and the Matlab scripts to inspect and 
   pages={xx--xx},
   year={2020},
   publisher={Springer}
+  doi={10.1007/s10439-020-02490-4}
 }
 ```
 Please cite the manuscript if you make use of these materials for your research or presentations.
