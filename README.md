@@ -7,14 +7,13 @@ This repository contains the data, models and the Matlab scripts to inspect and 
   title={Automated Generation of Three-Dimensional Complex Muscle Geometries for Use in Personalised Musculoskeletal Models},
   author={Modenese, Luca and Kohout, Josef},
   journal={Annals of biomedical engineering},
-  volume={accepted},
-  number={accepted},
-  pages={xx--xx},
   year={2020},
   publisher={Springer}
   doi={10.1007/s10439-020-02490-4}
 }
 ```
+The paper is open access and freely available [from the Journal website](https://link.springer.com/article/10.1007%2Fs10439-020-02490-4) or [this repository](https://github.com/modenaxe/3d-muscles/tree/master/docs).
+
 Please cite the manuscript if you make use of these materials for your research or presentations.
 
 ## Brief summary of the publication
