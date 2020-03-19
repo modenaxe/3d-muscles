@@ -31,4 +31,4 @@ by citing the following paper:
 
 Modenese L and Kohout J (2020). Automated Generation of Three-Dimensional 
 Complex Muscle Geometries for Use in Personalised Musculoskeletal Models. 
-Annals of Biomedical Engineering (under review).
+Annals of Biomedical Engineering, https://doi.org/10.1007/s10439-020-02490-4.

@@ -40,7 +40,7 @@ This repository includes:
 1. LHDL Anatomical dataset (see [reference publication](https://www.jstage.jst.go.jp/article/physiolsci/58/7/58_7_441/_article)) including:
 
 		a. bone geometries (pelvis, right femur)
-		b. muscle geometries for _iliacus_, _psoas_, _gluteus maximus_ and _gluteus medius_
+		b. muscle geometries for iliacus, psoas, gluteus maximus and gluteus medius
 		c. muscle attachments (as point clouds)
 2. OpenSim model with `straight-lines muscles` built from the LHDL dataset using NMSBuilder
 3. Motion data in OpenSim format (`.mot` files) to simulate the following hip motions:
