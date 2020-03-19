@@ -78,7 +78,7 @@ So the order is:
 # Limitations and notes about reproducibility
 * The highly discretized muscle models are meant to be used for simulating the provided hip joint tasks and nothing else.
 * Please note that the results for the highly discretized muscles presented in the manuscript were generated from kinematic simulations 
-performed in LHPBuilder, a multimodal viewer for biomechanical application that is not developed or supported anymore. 
+performed in LHPBuilder, a multimodal viewer for biomechanical applications that is not developed or supported anymore. 
 A version of LHPBuilder compatible with the use done in this paper can be downloaded from 
 [this website](https://mi.kiv.zcu.cz/en/research/musculoskeletal.html). LHPBuilder is a complex
  tool requiring preliminary training to be used, so we decided instead to implement the muscle fibre kinematics in the OpenSim models directly. 
