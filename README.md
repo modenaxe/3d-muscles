@@ -3,7 +3,7 @@
 This repository contains the data, models and the Matlab scripts to inspect and reproduce the results of the following publication:
 
 ```bibtex
-@article{Modenese2019three,
+@article{Modenese2020three,
   title={Automated Generation of Three-Dimensional Complex Muscle Geometries for Use in Personalised Musculoskeletal Models},
   author={Modenese, Luca and Kohout, Josef},
   journal={Annals of biomedical engineering},
