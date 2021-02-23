@@ -5,7 +5,7 @@
 % DO NOT REDISTRIBUTE WITHOUT PERMISSION
 %__________________________________________________________________________
 %
-function StorageMatStruc = Storage2MatStruct(Storage_file)
+function StorageMatStruc = sto2MatStruct(Storage_file)
 % OpenSim suggested settings
 import org.opensim.modeling.*
 OpenSimObject.setDebugLevel(3);
