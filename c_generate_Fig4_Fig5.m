@@ -21,7 +21,7 @@
 % ----------------------------------------------------------------------- %
 % last modified 16 Oct 2017
 
-function c_generate_Fig3_Fig4()
+function c_generate_Fig4_Fig5()
 
 clc; close all;
 

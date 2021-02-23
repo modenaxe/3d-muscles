@@ -60,7 +60,7 @@ for n_t = 1:numel(task_set)
     cur_task = task_set{n_t};
     % load mom arms from OpenSim model (saved from OpenSim GUI)
     MSK_results_file = [MSK_results_folder, filesep ,model,'_',cur_task,'.mot'];
-    osim_MA_task = Storage2MatStruct(MSK_results_file);
+    osim_MA_task = sto2MatStruct(MSK_results_file);
     % load results from highly discretized muscles
     load(fullfile(biomech_res_folder, ['Results_',model,'_',cur_task]));
     

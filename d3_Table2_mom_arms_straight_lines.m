@@ -55,7 +55,7 @@ for n = 1:numel(task_set)
     in_deg = 'yes';
     
     % load mom arms from OpenSim model (saved from OpenSim GUI)
-    osim_MA = Storage2MatStruct(MSK_results_file);
+    osim_MA = sto2MatStruct(MSK_results_file);
     if strcmp(cur_task, 'hip_flexion')
         osim_MA.data = osim_MA.data(1:71, :);
     end
