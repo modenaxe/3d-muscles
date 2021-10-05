@@ -1,5 +1,16 @@
-# Overview
+# Table of Contents  <!-- omit in toc -->
+- [Overview](#overview)
+	- [Brief summary of the publication](#brief-summary-of-the-publication)
+	- [Video summary of the publication](#video-summary-of-the-publication)
+- [Requirements](#requirements)
+- [Contents](#contents)
+	- [Visualizing the anatomical dataset](#visualizing-the-anatomical-dataset)
+	- [Visualizing the OpenSim models](#visualizing-the-opensim-models)
+	- [Running the MATLAB scripts](#running-the-matlab-scripts)
+- [Limitations and notes about reproducibility](#limitations-and-notes-about-reproducibility)
+- [Future work](#future-work)
 
+# Overview
 This repository contains the data, models and the Matlab scripts to inspect and reproduce the results of the following publication:
 
 ```bibtex
@@ -27,6 +38,13 @@ ranges of motion consistent with normal gait. If you need some background readin
 
 ![muscle_deformations](https://github.com/modenaxe/3d-muscles/blob/master/images/muscle_deformations.png)
 
+## Video summary of the publication
+
+The paper associated with this repository was awarded the [:trophy: Athanasiou postdoctoral award :trophy: of the Biomedical Engineering Society (BMES)](https://www.bmes.org/athanasiou) and the talk Luca gave for the occasion, presenting the work and its future developments, has been recorded and shared on YouTube. Click on the image below to see the recorded:
+
+[![Alt text](images/youtube_thumbnail.png)](https://youtu.be/4YHMiScyYtg)
+
+
 # Requirements
 In order to take full advantage of the content of this repository you will need to:
 1. download [OpenSim 3.3](https://simtk.org/projects/opensim). Go to the `Download` page of the provided link and click on `Previous releases`, as shown in [this screenshot](https://github.com/modenaxe/3d-muscles/blob/master/images/get_osim3.3.PNG).
@@ -34,12 +52,6 @@ In order to take full advantage of the content of this repository you will need 
 2. have MATLAB installed in your machine. The analyses of the paper were performed using version R2017b.
 3. set up the OpenSim 3.3 API. Required to run the provided scripts. Please refer to the OpenSim [documentation](https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab).
 4. (optional) [NMSBuilder](http://www.nmsbuilder.org)
-
-## Video summary of the publication
-
-The paper associated with this repository was awarded the [:trophy: Athanasiou postdoctoral award :trophy: of the Biomedical Engineering Society (BMES)](https://www.bmes.org/athanasiou) and the talk Luca gave for the occasion, presenting the work and its future developments, has been recorded and shared on YouTube. Click on the image below to see the recorded:
-
-[![Alt text](images/youtube_thumbnail.png)](https://youtu.be/4YHMiScyYtg)
 
 # Contents
 This repository includes:
