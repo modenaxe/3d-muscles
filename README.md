@@ -35,6 +35,12 @@ In order to take full advantage of the content of this repository you will need 
 3. set up the OpenSim 3.3 API. Required to run the provided scripts. Please refer to the OpenSim [documentation](https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab).
 4. (optional) [NMSBuilder](http://www.nmsbuilder.org)
 
+## Video summary of the publication
+
+The paper associated with this repository was awarded the [:trophy: Athanasiou postdoctoral award :trophy: of the Biomedical Engineering Society (BMES)](https://www.bmes.org/athanasiou) and the talk Luca gave for the occasion, presenting the work and its future developments, has been recorded and shared on YouTube. Click on the image below to see the recorded:
+
+[![Alt text](images/youtube_thumbnail.png)](https://youtu.be/4YHMiScyYtg)
+
 # Contents
 This repository includes:
 1. LHDL Anatomical dataset (see [reference publication](https://www.jstage.jst.go.jp/article/physiolsci/58/7/58_7_441/_article)) including:
