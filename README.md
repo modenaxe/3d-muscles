@@ -40,7 +40,7 @@ ranges of motion consistent with normal gait. If you need some background readin
 
 ## Video summary of the publication
 
-The paper associated with this repository was awarded the [:trophy: Athanasiou postdoctoral award :trophy: of the Biomedical Engineering Society (BMES)](https://www.bmes.org/athanasiou) and the talk Luca gave for the occasion, presenting the work and its future developments, has been recorded and shared on YouTube. Click on the image below to see the recorded:
+The paper associated with this repository was awarded the [:trophy: Athanasiou postdoctoral award :trophy: of the Biomedical Engineering Society (BMES)](https://www.bmes.org/awards/athanasiou-student-and-post-doc-awards) and the talk Luca gave for the occasion, presenting the work and its future developments, has been recorded and shared on YouTube. Click on the image below to see the recorded:
 
 [![Alt text](images/youtube_thumbnail.png)](https://youtu.be/4YHMiScyYtg)
 
