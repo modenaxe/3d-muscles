@@ -51,7 +51,7 @@ In order to take full advantage of the content of this repository you will need 
  You will use OpenSim to visualize the models. 
 2. have MATLAB installed in your machine. The analyses of the paper were performed using version R2017b.
 3. set up the OpenSim 3.3 API. Required to run the provided scripts. Please refer to the OpenSim [documentation](https://simtk-confluence.stanford.edu/display/OpenSim/Scripting+with+Matlab).
-4. (optional) [NMSBuilder](http://www.nmsbuilder.org)
+4. (optional) [NMSBuilder](https://ior-bic.github.io/software/nmsbuilder/)
 
 # Contents
 This repository includes:
@@ -75,8 +75,8 @@ Please note that the folders starting with `_` contain support functions and dat
 
 ## Visualizing the anatomical dataset 
 The LHDL anatomical dataset employed in this study is available in the folder [_LHDL_hip_r_dataset](https://github.com/modenaxe/3d-muscles/tree/master/_LHDL_hip_r_dataset) 
-and can be visualised and used to build an OpenSim model using [NMSBuilder](http://www.nmsbuilder.org).
-Please refer to the NMSBuilder [website](http://www.nmsbuilder.org) for documentation on how to use that software.
+and can be visualised and used to build an OpenSim model using [NMSBuilder](https://ior-bic.github.io/software/nmsbuilder/).
+Please refer to the NMSBuilder [website](https://ior-bic.github.io/software/nmsbuilder/) for documentation on how to use that software.
 ![NMSBuilder_LHDL](https://github.com/modenaxe/3d-muscles/blob/master/images/NMSBuilder_view.png)
 
 ## Visualizing the OpenSim models
